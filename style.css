@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+}
+.main {
+  margin: 0 auto;
+  width: 540px;
+}
+#claculator-screen {
+  width: 540px;
+  height: 125px;
+  border: 1px solid black;
+  text-align: center;
+}
+#calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.small-btn {
+  width: 100px;
+  height: 60px;
+}
+.big-btn {
+  width: 225px;
+  height: 60px;
+}
+.reset {
+  grid-column: 1/3;
+}
+.equals {
+  grid-column: 3/5;
+}
