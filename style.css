@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   width: 100vw;
   font-family: "Spartan", sans-serif;
@@ -11,7 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-#claculator-screen {
+#calculator-screen {
   width: 540px;
   height: 125px;
   text-align: center;
@@ -68,7 +71,7 @@ p.theme1 {
   color: hsl(30, 25%, 89%);
   font-size: 14px;
 }
-#claculator-screen.theme1 {
+#calculator-screen.theme1 {
   background: hsl(223, 31%, 20%);
   color: hsl(30, 25%, 89%);
 }
@@ -104,7 +107,7 @@ p.theme2 {
   color: hsl(30, 25%, 89%);
   font-size: 14px;
 }
-#claculator-screen.theme2 {
+#calculator-screen.theme2 {
   background: hsl(0, 0%, 93%);
   color: black;
 }
@@ -139,7 +142,7 @@ p.theme3 {
   color: hsl(52, 100%, 62%);
   font-size: 14px;
 }
-#claculator-screen.theme3 {
+#calculator-screen.theme3 {
   background: hsl(268, 71%, 12%);
   color: hsl(52, 100%, 62%);
 }
